@@ -1,7 +1,7 @@
 import Triage2
 from flask import Flask, request, jsonify
 from flask_socketio import SocketIO, send
-
+import os
 app = Flask(__name__)
 app.config['SECRET_KEY']= 'mysecret'
 socketio = SocketIO(app)
@@ -55,4 +55,5 @@ def sendValue(msg):
     send(jsonify(initial_values),broadcast=True)
 
 if __name__ == "__main__":
-    app.run(port=3000)
+    port = int(os.environ.get('PORT', '5000'))
+    app.run(host= '0.0.0.0', port=port)
