@@ -1,14 +1,13 @@
-Age,Gender,Abdominal Pain,Asystole,Bleeding Profusely,Broken Bones,Burns,Chest pain,Concussion,Cuts/Lacerations,Difficulty swallowing,Dizziness,Head Injury,Heart palpitations,Nausea or vomiting,Seizures,Shortness of breath,Unconcious,Wheezing,Pulse Rate,Oxygen,Systolic BP,Diastolic BP,Cardiac Condition,Drug Complications,Blood Problems,Blood Type,Time
-45,M,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,82,97,150,80,0,0,0,AB,85
-15,M,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,30,75,100,60,0,0,0,A,10
-17,F,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,60,80,70,30,0,0,0,O,0
-30,F,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,80,97,120,79,1,1,0,AB,30
-26,M,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,1,0,95,93,109,72,1,0,0,B,15
-30,F,0,0,0,0,0,0,1,0,1,1,1,0,1,0,1,0,0,70,95,120,78,0,1,0,B,30
-46,F,1,0,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,110,96,100,68,0,0,1,AB,10
-33,F,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,105,93,115,74,0,0,0,AB,35
-32,M,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,107,94,99,66,1,1,0,O,0
-23,M,0,0,0,0,1,0,1,1,0,1,1,1,1,0,1,1,0,94,98,119,77,0,0,1,O,60
-16,M,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,0,85,93,118,78,0,0,1,A,35
-12,F,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,1,80,94,117,75,0,1,0,A,45
-25,F,0,1,0,0,0,0,1,1,0,0,1,0,0,1,0,1,1,90,94,115,71,1,0,1,B,0
+First Name,Last Name,Age,Gender,Abdominal Pain,Asystole,Bleeding Profusely,Broken Bones,Burns,Chest pain,Concussion,Cuts/Lacerations,Difficulty swallowing,Dizziness,Head Injury,Heart palpitations,Nausea or vomiting,Seizures,Shortness of breath,Unconcious,Wheezing,Pulse Rate,Oxygen,Systolic BP,Diastolic BP,Cardiac Condition,Drug Complications,Blood Problems,Blood Type,Time
+James,Smith,45,M,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,82,97,150,80,0,0,0,AB,85
+James,Jones,15,M,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,30,75,100,60,0,0,0,A,10
+Janet,Yellin,17,F,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,60,80,70,30,0,0,0,O,0
+Aneesha,Atri,30,F,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,80,97,120,79,1,1,0,AB,30
+Aadarsh,Rao,26,M,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,1,0,95,93,109,72,1,0,0,B,15
+Diane,Patel,30,F,0,0,0,0,0,0,1,0,1,1,1,0,1,0,1,0,0,70,95,120,78,0,1,0,B,30
+Katherine,Johnson,46,F,1,0,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,110,96,100,68,0,0,1,AB,10
+James,Smith,33,F,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,105,93,115,74,0,0,0,AB,35
+James,Jones,32,M,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,107,94,99,66,1,1,0,O,0
+Janet,Yellin,23,M,0,0,0,0,1,0,1,1,0,1,1,1,1,0,1,1,0,94,98,119,77,0,0,1,O,60
+Aneesha,Atri,16,M,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,0,85,93,118,78,0,0,1,A,35
+Aadarsh,Rao,12,F,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,1,80,94,117,75,0,1,0,A,45

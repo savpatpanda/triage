@@ -9,12 +9,12 @@ le = preprocessing.LabelEncoder()
 gender = le.fit_transform(list(data["Gender"]))
 type = le.fit_transform((list(data["Blood Type"])))
 
-x = list(zip(data["Age"],gender,data["Abdominal Pain"],data["Asystole"],data["Bleeding Profusely"],data["Broken Bones"],data["Burns"],data["Chest pain"],data["Concussion"],data["Cuts/Lacerations"],data["Difficulty swallowing"],data["Dizziness"],data["Head Injury"],data["Heart palpitations"],data["Nausea or vomiting"],data["Seizures"],data["Shortness of breath"],data["Unconcious"],data["Wheezing"],data["Pulse Rate"],data["Oxygen"],data["Systolic BP"],data["Diastolic BP"],data["Cardiac Condition"],data["Drug Complications"],data["Blood Problems"],type))
+x = list(zip(data["First Name"],data["Last Name"],data["Age"],gender,data["Abdominal Pain"],data["Asystole"],data["Bleeding Profusely"],data["Broken Bones"],data["Burns"],data["Chest pain"],data["Concussion"],data["Cuts/Lacerations"],data["Difficulty swallowing"],data["Dizziness"],data["Head Injury"],data["Heart palpitations"],data["Nausea or vomiting"],data["Seizures"],data["Shortness of breath"],data["Unconcious"],data["Wheezing"],data["Pulse Rate"],data["Oxygen"],data["Systolic BP"],data["Diastolic BP"],data["Cardiac Condition"],data["Drug Complications"],data["Blood Problems"],type))
 y = list(data["Time"])
 
 def euclideanDistance(instance1, instance2, length):
     squared_distance = 0
-    for i in range(27):
+    for i in range(2,29):
         squared_distance += pow((instance1[i]-instance2[i]),2)
     return math.sqrt(squared_distance)
 
@@ -29,6 +29,8 @@ def getNeighbors(tester, k):
     return neighbors
 
 def predict(input,k):
+    le.fit_transform(list(data['Gender']))
+    le.fit_transform(list(data['Blood Type']))
     neighbors = getNeighbors(input,k)
     sum_of_distances = 0
     for i in range(len(neighbors)):
