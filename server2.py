@@ -44,8 +44,8 @@ def postJsonHandler():
                   data['Blood Type']]
     predicted_value = Triage2.predict(input_data,2)
     input_data.append(predicted_value)
-    resp = jsonify(success=True)
-    send(jsonify(input_data), broadcast=True)
+    resp = jsonify(input_data)
+    '''send(jsonify(input_data), broadcast=True)'''
     return resp
 
 @socketio.on('connection')
