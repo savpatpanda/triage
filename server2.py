@@ -6,6 +6,10 @@ app = Flask(__name__)
 app.config['SECRET_KEY']= 'mysecret'
 socketio = SocketIO(app)
 
+@app.route('/')
+def hello():
+    return("Hello world!")
+
 @app.route('/post', methods = ['POST'])
 def postJsonHandler():
     data = request.get_json()
@@ -51,4 +55,4 @@ def sendValue(msg):
     send(jsonify(initial_values),broadcast=True)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=3000)
