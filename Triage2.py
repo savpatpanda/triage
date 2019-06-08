@@ -2,6 +2,7 @@ import pandas as pd
 import math
 import operator
 from sklearn import preprocessing
+from flask import jsonify
 
 data = pd.read_csv("inpatient_data.csv")
 
