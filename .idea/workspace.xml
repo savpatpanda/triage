@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c2e393a-b2a4-48e5-af59-3409110b8d4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Triage2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Triage2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inpatient_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/inpatient_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server2.py" beforeDir="false" afterPath="$PROJECT_DIR$/server2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Triage2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="-194">
+              <caret line="10" column="581" selection-start-line="10" selection-start-column="581" selection-end-line="10" selection-end-column="581" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+            <state relative-caret-position="231">
+              <caret line="54" column="101" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/inpatient_data.csv" />
-        <option value="$PROJECT_DIR$/server2.py" />
         <option value="$PROJECT_DIR$/Triage2.py" />
+        <option value="$PROJECT_DIR$/server2.py" />
       </list>
     </option>
   </component>
@@ -341,16 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inpatient_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -360,10 +350,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Triage2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="-194">
+          <caret line="10" column="581" selection-start-line="10" selection-start-column="581" selection-end-line="10" selection-end-column="581" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="54" column="101" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

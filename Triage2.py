@@ -7,10 +7,8 @@ from flask import jsonify
 data = pd.read_csv("inpatient_data.csv")
 
 le = preprocessing.LabelEncoder()
-gender = le.fit_transform(list(data["Gender"]))
-type = le.fit_transform((list(data["Blood Type"])))
 
-x = list(zip(data["First Name"],data["Last Name"],data["Age"],gender,data["Abdominal Pain"],data["Asystole"],data["Bleeding Profusely"],data["Broken Bones"],data["Burns"],data["Chest pain"],data["Concussion"],data["Cuts/Lacerations"],data["Difficulty swallowing"],data["Dizziness"],data["Head Injury"],data["Heart palpitations"],data["Nausea or vomiting"],data["Seizures"],data["Shortness of breath"],data["Unconscious"],data["Wheezing"],data["Pulse Rate"],data["Oxygen"],data["Systolic BP"],data["Diastolic BP"],data["Cardiac Condition"],data["Drug Complications"],data["Blood Problems"],type))
+x = list(zip(data["First Name"],data["Last Name"],data["Age"],data["Abdominal Pain"],data["Asystole"],data["Bleeding Profusely"],data["Broken Bones"],data["Burns"],data["Chest pain"],data["Concussion"],data["Cuts/Lacerations"],data["Difficulty swallowing"],data["Dizziness"],data["Head Injury"],data["Heart palpitations"],data["Nausea or vomiting"],data["Seizures"],data["Shortness of breath"],data["Unconscious"],data["Wheezing"],data["Pulse Rate"],data["Oxygen"],data["Systolic BP"],data["Diastolic BP"],data["Cardiac Condition"],data["Drug Complications"],data["Blood Problems"]))
 y = list(data["Time"])
 
 def euclideanDistance(instance1, instance2, length):
