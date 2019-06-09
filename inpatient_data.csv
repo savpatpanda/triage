@@ -1,4 +1,4 @@
-First Name,Last Name,Age,Gender,Abdominal Pain,Asystole,Bleeding Profusely,Broken Bones,Burns,Chest pain,Concussion,Cuts/Lacerations,Difficulty swallowing,Dizziness,Head Injury,Heart palpitations,Nausea or vomiting,Seizures,Shortness of breath,Unconcious,Wheezing,Pulse Rate,Oxygen,Systolic BP,Diastolic BP,Cardiac Condition,Drug Complications,Blood Problems,Blood Type,Time
+First Name,Last Name,Age,Gender,Abdominal Pain,Asystole,Bleeding Profusely,Broken Bones,Burns,Chest pain,Concussion,Cuts/Lacerations,Difficulty swallowing,Dizziness,Head Injury,Heart palpitations,Nausea or vomiting,Seizures,Shortness of breath,Unconscious,Wheezing,Pulse Rate,Oxygen,Systolic BP,Diastolic BP,Cardiac Condition,Drug Complications,Blood Problems,Blood Type,Time
 James ,Smith,45,M,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,82,97,150,80,0,0,0,B,85
 James ,Jones,15,M,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,30,75,100,60,0,0,0,AB,10
 Janet,Yellin,17,F,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,60,80,70,30,0,0,0,O,0
