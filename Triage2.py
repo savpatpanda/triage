@@ -16,7 +16,7 @@ y = list(data["Time"])
 def euclideanDistance(instance1, instance2, length):
     squared_distance = 0
     for i in range(2,29):
-        squared_distance += pow((instance1[i]-instance2[i]),2)
+        squared_distance += (instance1[i]-instance2[i])**2
     return math.sqrt(squared_distance)
 
 def getNeighbors(tester, k):
