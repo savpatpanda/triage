@@ -43,6 +43,7 @@ def postJsonHandler():
                   data['Blood Problems'],
                   data['Blood Type']]
     predicted_value = Triage2.predict(input_data,2)
+    return("The person's value for this patient is: ",predicted_value)
     input_data.append(predicted_value)
     resp = jsonify(input_data)
     '''send(jsonify(input_data), broadcast=True)'''
