@@ -15,7 +15,7 @@ y = list(data["Time"])
 
 def euclideanDistance(instance1, instance2, length):
     squared_distance = 0
-    for i in range(2,29):
+    for i in range(2,27):
         squared_distance += (int(instance1[i])-int(instance2[i]))**2
     return math.sqrt(squared_distance)
 
